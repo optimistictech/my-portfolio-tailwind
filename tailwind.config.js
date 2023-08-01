@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         'custom-orange': '#d88523',
+        'custom-orange-fade': '#96692b',
 
       },
       backgroundImage: {
