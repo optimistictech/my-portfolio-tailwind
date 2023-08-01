@@ -4,9 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        custom_orange: '#d88523',
+        'custom-orange': '#d88523',
 
       },
+      backgroundImage: {
+        'hero-image': "url('/img/slide2.jpg')",
+       }
     },
   },
   plugins: [],
