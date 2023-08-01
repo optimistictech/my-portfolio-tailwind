@@ -10,7 +10,8 @@ module.exports = {
       },
       backgroundImage: {
         'hero-image': "url('/img/slide2.jpg')",
-       }
+       },
+      
     },
   },
   plugins: [],

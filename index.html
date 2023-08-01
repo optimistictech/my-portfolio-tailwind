@@ -6,52 +6,101 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>My Portfolio</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
   <link href="/dist/output.css" rel="stylesheet">
 
 </head>
 
-<body class="" >
+<body class="">
   <nav class="bg-custom-orange px-2 py-[30px]   lg:h-20 ">
     <div class="container flex flex-wrap justify-between mx-auto">
-      
-      <a  href="#">
-          <span class=" text-white">My Resume</span>
+
+      <a href="#">
+        <span class=" text-white">My Resume</span>
       </a>
 
-    
+
 
       <ul class="flex mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm ">
         <li>
-          <a href="#" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded bg-transparent  md:p-0" >Home</a>
-        </li>
-      
-        <li>
-          <a href="#" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded bg-transparent  md:p-0" >About</a>
-        </li>
-      
-        <li>
-          <a href="#" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded bg-transparent  md:p-0" >Contact</a>
-        </li>
-      
-        <li>
-          <a href="#" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded bg-transparent  md:p-0" >Skills</a>
+          <a href="#" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded bg-transparent  md:p-0">Home</a>
         </li>
 
-        </ul>
+        <li>
+          <a href="#" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded bg-transparent  md:p-0">About</a>
+        </li>
+
+        <li>
+          <a href="#" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded bg-transparent  md:p-0">Contact</a>
+        </li>
+
+        <li>
+          <a href="#" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded bg-transparent  md:p-0">Skills</a>
+        </li>
+
+      </ul>
     </div>
   </nav>
 
   <div class="relative bg-hero-image bg-center bg-no-repeat bg-cover h-[450px] flex items-center justify-center">
     <!-- Transparent color overlay using pseudo-element ::before -->
-    <div class="absolute inset-0 bg-custom-orange opacity-30"></div>
+    <div class="absolute inset-0 bg-custom-orange opacity-25"></div>
     <div class="text-center text-white relative">
-        <h1 class="text-4xl font-bold mb-4">OLAORO SAMSON OLAMIDE</h1>
-        <p class="text-lg mb-8">WEB DEVELOPER, PROGRAMMER, COMPUTER SCIENTIST</p>
-        <div class="flex justify-center space-x-4">
-            <button class="bg-custom-orange hover:bg-custom-orange-fade text-white px-6 py-3 rounded">Hire Me</button>
-         <a href="docs/Samson+Olamide+Web_developer.pdf" target="_parent">   <button class="bg-transparent hover:bg-custom-orange text-white border border-custom-orange px-6 py-3 rounded">Download CV</button></a>
-        </div>
+      <h1 class="text-4xl font-bold mb-4">OLAORO SAMSON OLAMIDE</h1>
+      <p class="text-lg mb-8">WEB DEVELOPER, PROGRAMMER, COMPUTER SCIENTIST</p>
+      <div class="flex justify-center space-x-4">
+        <button class="bg-custom-orange hover:bg-custom-orange-fade text-white px-6 py-3 rounded">Hire Me</button>
+        <a href="docs/Samson+Olamide+Web_developer.pdf" target="_parent"> <button
+            class="bg-transparent hover:bg-custom-orange text-white border border-custom-orange px-6 py-3 rounded">Download
+            CV</button></a>
+      </div>
     </div>
+  </div>
+
+  <div class="relative flex justify-center items-center mt-[-40px]">
+    <a href="https://github.com/optimistictech/" target="_blank"  class="bg-gray-800 w-[50px] h-[50px] flex items-center justify-center rounded-full p-2 m-2">
+        <i class="fab fa-github  text-white text-xl"></i>
+    </a>
+
+    <a href="https://twitter.com/samson_optimist" target="_blank" class="bg-blue-500  w-[50px] h-[50px] flex items-center justify-center rounded-full p-2 m-2">
+        <i class="fab fa-twitter text-white text-xl"></i>
+    </a>
+
+    <a href="https://www.linkedin.com/in/samson-olaoro-63051a195/" target="_blank" class="bg-blue-800 w-[50px] h-[50px] flex items-center justify-center rounded-full p-2 m-2">
+        <i class="fab fa-linkedin-in text-white text-xl"></i>
+    </a>
+
+     <a href="https://medium.com/@olaorosamson3" target="_blank" class="bg-black w-[50px] h-[50px] flex items-center justify-center rounded-full p-2 m-2">
+            <i class="fab fa-medium-m text-white text-xl"></i>
+        </a>
+</div>
+
+
+<div class="section" >
+  <div class="container mx-auto">
+      <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+          <div class="grid lg:grid-cols-2 p-8 gap-8">
+              <div>
+                  <div class="text-2xl font-bold mb-4">About</div>
+                  <p>Web Developer specializing in front & back end development. Experienced with all stages of the development cycle for dynamic web projects. Well-versed in numerous programming languages including HTML5, PHP OOP, JavaScript, CSS, MySQL. Strong background in project management and customer relations.</p>
+              </div>
+              <div>
+                  <div class="text-2xl font-bold mb-4">Basic Information</div>
+                  <div class="grid grid-cols-2 gap-4 mt-3">
+                      <div><strong class="uppercase">Personal Email:</strong></div>
+                      <div>olaorosamson3@gmail.com</div>
+                      <div><strong class="uppercase">Business Email:</strong></div>
+                      <div>info@optimistictech.com.ng</div>
+                      <div><strong class="uppercase">Phone:</strong></div>
+                      <div>08131157998</div>
+                      <div><strong class="uppercase">Address:</strong></div>
+                      <div>Ibadan, Nigeria</div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
 
 
