@@ -2,8 +2,13 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        custom_orange: '#d88523',
+
+      },
+    },
   },
   plugins: [],
-}
+};
 
